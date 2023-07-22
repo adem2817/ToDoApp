@@ -21,7 +21,7 @@ public class NoteController {
 
     @GetMapping("/member/{member-uid}/notebook/{notebook-uid}")
     public ResponseEntity<List<Note>> list(@PathVariable(value = "member-uid") UUID memberUid, @PathVariable(value = "notebook-uid") UUID notebookUid) {
-        List<Note> notes = noteService.getAllNotesByMember_UidAndNotebook_Uid(memberUid, notebookUid);
+        List<Note> notes = noteService.getAllNotesByNotebook_UidAndMember_Uid(notebookUid, memberUid);
         if (notes.isEmpty())
             return ResponseEntity.noContent().build();
         return ResponseEntity.ok(notes);

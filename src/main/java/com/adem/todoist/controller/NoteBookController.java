@@ -41,7 +41,7 @@ public class NoteBookController {
         NoteBook noteBook = NoteBook.builder()
                 .name(noteBookModel.getName())
                 .uid(UUID.randomUUID())
-                .member(member)
+                .memberUid(member.getUid())
                 .build();
         noteBookService.save(noteBook);
         return ResponseEntity.noContent().build();

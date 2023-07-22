@@ -20,5 +20,5 @@ public class Member extends BaseEntity{
     private String name;
     private String email;
     private String password;
-    private List<NoteBook> noteBooks;
+    private List<UUID> noteBookUids;
 }
