@@ -1,2 +1,2 @@
-# todoist
-todoist application
+# todolist
+todolist application
