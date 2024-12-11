@@ -1,10 +1,10 @@
-package com.adem.todoist.entity;
+package com.todolist.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.couchbase.core.mapping.Document;
 import org.springframework.data.couchbase.core.mapping.Field;
-import java.util.Set;
+
 import java.util.UUID;
 
 @Builder
@@ -13,16 +13,18 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Document
-public class NoteBook extends BaseEntity {
+public class Note extends BaseEntity{
     @Id
     @Field
     private Long id;
     @Field
     private UUID uid;
     @Field
-    private String name;
+    private UUID notebookUid;
     @Field
-    private Set<Note> notes;
+    private String content = "";
+    @Field
+    private Boolean status = false;
     @Field
     private UUID memberUid;
 }

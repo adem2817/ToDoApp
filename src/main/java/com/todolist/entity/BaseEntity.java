@@ -1,4 +1,4 @@
-package com.adem.todoist.entity;
+package com.todolist.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

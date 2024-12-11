@@ -1,4 +1,4 @@
-package com.adem.todoist.config;
+package com.todolist.config;
 
 import com.couchbase.client.java.query.QueryScanConsistency;
 import org.springframework.context.annotation.Bean;

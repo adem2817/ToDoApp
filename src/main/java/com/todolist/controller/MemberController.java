@@ -1,4 +1,4 @@
-package com.adem.todoist.controller;
+package com.todolist.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 

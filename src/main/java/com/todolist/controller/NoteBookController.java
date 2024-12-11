@@ -1,10 +1,10 @@
-package com.adem.todoist.controller;
+package com.todolist.controller;
 
-import com.adem.todoist.entity.Member;
-import com.adem.todoist.entity.NoteBook;
-import com.adem.todoist.model.NoteBookModel;
-import com.adem.todoist.service.MemberService;
-import com.adem.todoist.service.NoteBookService;
+import com.todolist.entity.Member;
+import com.todolist.entity.NoteBook;
+import com.todolist.model.NoteBookModel;
+import com.todolist.service.MemberService;
+import com.todolist.service.NoteBookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.adem.todoist.service;
+package com.todolist.service;
 
-import com.adem.todoist.entity.Note;
+import com.todolist.entity.Note;
 
 import java.util.List;
 import java.util.UUID;

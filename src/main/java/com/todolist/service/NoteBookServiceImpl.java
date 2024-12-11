@@ -1,7 +1,7 @@
-package com.adem.todoist.service;
+package com.todolist.service;
 
-import com.adem.todoist.entity.NoteBook;
-import com.adem.todoist.repository.NoteBookRepository;
+import com.todolist.entity.NoteBook;
+import com.todolist.repository.NoteBookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

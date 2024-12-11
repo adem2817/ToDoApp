@@ -1,7 +1,6 @@
-package com.adem.todoist.repository;
+package com.todolist.repository;
 
-import com.adem.todoist.entity.Note;
-import com.adem.todoist.entity.NoteBook;
+import com.todolist.entity.NoteBook;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

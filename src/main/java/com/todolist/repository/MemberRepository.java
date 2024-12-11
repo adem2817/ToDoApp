@@ -1,6 +1,6 @@
-package com.adem.todoist.repository;
+package com.todolist.repository;
 
-import com.adem.todoist.entity.Member;
+import com.todolist.entity.Member;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.UUID;
